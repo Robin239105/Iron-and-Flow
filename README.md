@@ -1,16 +1,106 @@
-# React + Vite
+# ⚡️ IRON & FLOW GYM · SHOREDITCH, LONDON
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> London's most results-driven industrial CrossFit box. Where raw athletic strength meets high-performance flow. Engineered for elite performance, pure human progression, and zero shortcuts.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🎨 Premium Visual Redesign & Core Philosophy
 
-## React Compiler
+This platform has been meticulously overhauled to mirror a **streetwear-inspired, high-contrast, premium dark mode aesthetic**. Obsidian glass elements, sharp angles, smooth micro-animations, and striking HSL crimson gradients create a state-of-the-art cinematic web experience.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## ✨ Features Checklist
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Cinematic Homepage Hero Banner:**
+  - Dynamic slideshow with high-fidelity, custom-tailored local athlete portrait assets.
+  - Smooth Ken Burns zooming slide transitions.
+  - Interactive, responsive floating widgets (Spotlight live-class indicators, real-time tribe floor counters).
+  - Contextual secondary CTA buttons (e.g. *View Schedule* uses a `Calendar` icon, *Meet Coaches* uses a `Users` icon).
+- **Premium Coaches & AI-Generated Portraits:**
+  - Dedicated `/coaches` path with legacy fallback routing.
+  - Responsive layout stacking for touch/mobile devices: hover bio sheet details gracefully move under specialties on mobile devices (`md:hidden`) to guarantee full touch-screen accessibility.
+  - Six custom-generated photorealistic coach avatars mapped directly inside the gym's database structure.
+- **Touch-Friendly Gallery Slider:**
+  - Fully responsive, hardware-accelerated, touch-enabled Before/After comparison drag sliders (`handleTouchMove`, `touchend`) to visual progress monitoring.
+- **Elite Interactive Class Schedules:**
+  - Modern day-filter panels.
+  - SVG intensity output circular dials showing metric levels per class.
+- **Interactive Pricing & Estimators:**
+  - High-contrast membership cards mapping features and priorities across Starter, Warrior, and Elite tiers.
+  - Frictional slider calculators (BMI, etc.) for client diagnostics.
+- **Global Route Transitions:**
+  - Full route transition fades via Framer Motion.
+  - Unified scroll-to-top routing resets on all transitions.
+- **Custom Brand Assets:**
+  - Unique vector favicon and brand monogram featuring HSL gradient backplates.
+- **Advanced Ad-Block Network Clearance:**
+  - Avoids strict extension filter blocks (`net::ERR_BLOCKED_BY_CLIENT`) by renaming legal pages securely (`SecurityNotice`, `TrackerGuide`) while maintaining elegant, readable browser URLs (`/privacy`, `/cookies`).
+
+---
+
+## 🛠 Tech Stack & Core Dependencies
+
+*   **Framework Core:** React 19 + Vite (Next-generation compilation)
+*   **Routing & Transitions:** React Router DOM v7 + Framer Motion (Hardware accelerated motion)
+*   **Styling & Design System:** Tailwind CSS (Strict obsidian color palettes, custom responsive grid boundaries)
+*   **Iconography:** Lucide Icons + Hand-crafted custom inline SVGs (Ensures 100% build compatibility and zero dependency version issues)
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+Make sure you have **Node.js** (v18.0 or later) installed on your machine.
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Robin239105/Iron-and-Flow.git
+   cd "Iron and Flow Gym"
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Launch local development server:
+   ```bash
+   npm run dev
+   ```
+
+4. Build production bundle locally:
+   ```bash
+   npm run build
+   ```
+
+5. Verify lint compliance:
+   ```bash
+   npm run lint
+   ```
+
+---
+
+## ☁️ Vercel Deployment Guide
+
+This project is 100% aligned with Vercel's zero-config requirements for Vite React environments:
+
+1. **Import Project:** Connect your Vercel account to GitHub and import `Robin239105/Iron-and-Flow`.
+2. **Build Settings:** Vercel will automatically detect the Vite template:
+   * **Framework Preset:** Vite
+   * **Build Command:** `npm run build`
+   * **Output Directory:** `dist`
+3. **Deploy:** Click **Deploy**. Your site will compile and launch globally in under 30 seconds!
+
+---
+
+## 🛡 License & Legal
+
+© 2026 Iron & Flow Gym Ltd. All rights reserved. Registered in England & Wales.
+For full details, see the active legal directories:
+*   [Privacy Notice](https://ironandflow.co.uk/privacy)
+*   [Terms of Service](https://ironandflow.co.uk/terms)
+*   [Cookie Guidelines](https://ironandflow.co.uk/cookies)
