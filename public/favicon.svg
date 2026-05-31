@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <!-- Ultra-Vibrant Multi-Spectrum Gradient (Neon Purple -> Hot Pink -> Coral -> Gold) -->
+    <linearGradient id="colorfulBacking" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#8B5CF6" />   <!-- Electric Violet -->
+      <stop offset="35%" stopColor="#EC4899" />  <!-- Hot Pink -->
+      <stop offset="70%" stopColor="#FF1A22" />  <!-- Crimson Red -->
+      <stop offset="100%" stopColor="#FFB800" /> <!-- Golden Glow -->
+    </linearGradient>
+
+    <!-- Subtle Drop Shadow for the Stamp to float -->
+    <filter id="monogramShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="1.5" stdDeviation="2.5" floodColor="#000000" floodOpacity="0.5" />
+    </filter>
+  </defs>
+
+  <!-- Glowing Colorful Backing Disc -->
+  <circle cx="32" cy="32" r="28" fill="url(#colorfulBacking)" />
+
+  <!-- Outer Ring Accent to make it pop -->
+  <circle cx="32" cy="32" r="29.5" stroke="#FFFFFF" strokeWidth="1" opacity="0.15" />
+
+  <!-- Pure White Slanted Interlocking I & F Monogram Stamp -->
+  <g filter="url(#monogramShadow)">
+    <!-- Left parallel speed stripe -->
+    <path
+      d="M17 28 H22 L17 48 H12 Z"
+      fill="#FFFFFF"
+    />
+
+    <!-- STEM - "I" (Iron): Slanted crisp solid pillar -->
+    <path
+      d="M24 14 H33 L25 50 H16 Z"
+      fill="#FFFFFF"
+    />
+
+    <!-- TOP ARM - "F" (Flow): Sweeping aerodynamic wedge -->
+    <path
+      d="M32.8 14 H51 L49 22 H29 Z"
+      fill="#FFFFFF"
+    />
+
+    <!-- MIDDLE ARM - "F" (Flow): Secondary aerodynamic wedge -->
+    <path
+      d="M29.5 30 H43 L41 38 H25.7 Z"
+      fill="#FFFFFF"
+    />
+  </g>
+</svg>
