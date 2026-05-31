@@ -101,6 +101,6 @@ This project is 100% aligned with Vercel's zero-config requirements for Vite Rea
 
 © 2026 Iron & Flow Gym Ltd. All rights reserved. Registered in England & Wales.
 For full details, see the active legal directories:
-*   [Privacy Notice](https://ironandflow.co.uk/privacy)
-*   [Terms of Service](https://ironandflow.co.uk/terms)
-*   [Cookie Guidelines](https://ironandflow.co.uk/cookies)
+*   [Privacy Notice](https://iron-and-flow.vercel.app/privacy)
+*   [Terms of Service](https://iron-and-flow.vercel.app/terms)
+*   [Cookie Guidelines](https://iron-and-flow.vercel.app/cookies)
